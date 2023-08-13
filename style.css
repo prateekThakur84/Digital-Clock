@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://static.vecteezy.com/system/resources/previews/023/984/859/original/sorcerer-boy-and-the-owl-background-free-vector.jpg");
+    background-size: cover;
+    
+}
+
+.clock{
+    /* width: 100%; */
+    height: 200px;
+    width: 200px;
+    /* max-width: 380px; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 00px -10px 10px    rgba(255, 172, 32, 0.5), 0px 10px 20px rgba(255, 172, 32, 0.9);
+    /* height: 24vh; */
+    border-radius: 50%;
+    display: inline-block;
+    padding: 00px;
+    border-color: #f4ba20;
+    
+    
+    
+}
+
+.clock {
+    
+    background-image: url("https://cellularnews.com/images/hd/black-1600X900-4b7hp02442btx50u.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+
+.clock h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f4ba20;
+}
+
+.clock span{
+    position: relative;
+    top: -13%;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+@media screen and (min-width:275px){
+    .clock{
+        max-width: 210px;
+        padding: 5px;
+    }
+    .clock h1{
+    font-size: 1.2rem;    
+    }
+}
+
+@media screen and (min-width:275px) and (max-width:400px){
+    .clock{
+        max-width: 260px;
+        padding: 4px;
+    }
+    .clock h1{
+    font-size: 1rem;
+    }
+}
+
